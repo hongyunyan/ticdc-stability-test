@@ -1,0 +1,15 @@
+[Unit]
+Description=TiCDC Stability Test Scheduler
+After=network.target
+
+[Service]
+Type=simple
+User=hongyunyan
+WorkingDirectory=/home/hongyunyan/ticdc-stability-test
+ExecStart=/usr/bin/python3 scheduler.py schedule
+Restart=always
+RestartSec=10
+Environment=PATH=/usr/bin:/usr/local/bin
+
+[Install]
+WantedBy=multi-user.target
