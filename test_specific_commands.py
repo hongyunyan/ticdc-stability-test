@@ -58,6 +58,7 @@ def test_specific_commands():
             print(f"   - /test pull-cdc-mysql-integration-light")
             print(f"   - /test pull-cdc-storage-integration-heavy")
             print(f"   - /test pull-cdc-storage-integration-light")
+            print(f"   - /test pull_cdc_mysql_integration_light_next_gen")
             
             return pr_number, branch_name
         else:

@@ -129,6 +129,7 @@ Each PR triggers the following specific test commands:
 - `/test pull-cdc-mysql-integration-light`
 - `/test pull-cdc-storage-integration-heavy`
 - `/test pull-cdc-storage-integration-light`
+- `/test pull_cdc_mysql_integration_light_next_gen`
 
 ### PR Creation Timeline
 
