@@ -72,7 +72,7 @@ class StabilityTest:
                 "/test pull-cdc-mysql-integration-light",
                 "/test pull-cdc-storage-integration-heavy",
                 "/test pull-cdc-storage-integration-light",
-                "/test pull_cdc_mysql_integration_light_next_gen"
+                "/test pull-cdc-mysql-integration-light-next-gen"
             ]
             
             # Send each test command as a separate comment
